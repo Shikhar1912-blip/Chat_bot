@@ -112,7 +112,7 @@ export default function MyReportsSlider({ isOpen, onClose }: MyReportsSliderProp
           <div className="flex items-center justify-between p-6 border-b border-slate-700/50">
             <div>
               <h2 className="text-2xl font-mono font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                My ticketss
+                My tickets
               </h2>
               <p className="text-slate-400 text-sm font-mono mt-1">
                 Track your submitted tickets
