@@ -45,7 +45,7 @@ export default function ReportCard({ report, onStatusChange, isAdmin = false }: 
     <div className="bg-white rounded-lg shadow-md p-6 mb-4">
       <div className="flex justify-between items-start mb-4">
         <div>
-          <h3 className="text-lg font-semibold text-gray-900">Report #{report._id}</h3>
+          <h3 className="text-lg font-semibold text-gray-900">Ticket #{report._id}</h3>
           <p className="text-sm text-gray-500">
             Reported by: {report.reportedBy}
           </p>
@@ -72,7 +72,7 @@ export default function ReportCard({ report, onStatusChange, isAdmin = false }: 
       </div>
 
       <div className="mb-4">
-        <h4 className="font-medium text-gray-900 mb-2">Reason for Report:</h4>
+        <h4 className="font-medium text-gray-900 mb-2">Reason for Ticket:</h4>
         <p className="text-gray-700">{report.reason}</p>
         <h4 className="font-medium text-gray-900 mb-2 mt-4">Description:</h4>
         <p className="text-gray-700 whitespace-pre-line break-words">{report.description}</p>

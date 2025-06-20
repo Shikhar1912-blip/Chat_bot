@@ -112,10 +112,10 @@ export default function MyReportsSlider({ isOpen, onClose }: MyReportsSliderProp
           <div className="flex items-center justify-between p-6 border-b border-slate-700/50">
             <div>
               <h2 className="text-2xl font-mono font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                My Reports
+                My ticketss
               </h2>
               <p className="text-slate-400 text-sm font-mono mt-1">
-                Track your submitted reports
+                Track your submitted tickets
               </p>
             </div>
             <button
@@ -145,8 +145,8 @@ export default function MyReportsSlider({ isOpen, onClose }: MyReportsSliderProp
                   <div className="w-16 h-16 bg-slate-700/50 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Clock className="w-8 h-8 text-slate-400" />
                   </div>
-                  <p className="text-slate-400 font-mono text-lg mb-2">No reports yet</p>
-                  <p className="text-slate-500 text-sm">Your submitted reports will appear here</p>
+                  <p className="text-slate-400 font-mono text-lg mb-2">No tickets yet</p>
+                  <p className="text-slate-500 text-sm">Your submitted tickets will appear here</p>
                 </div>
               </div>
             ) : (
@@ -159,7 +159,7 @@ export default function MyReportsSlider({ isOpen, onClose }: MyReportsSliderProp
                     <div className="flex items-start justify-between mb-4">
                       <div>
                         <h3 className="font-mono font-semibold text-cyan-400 mb-1">
-                          Report #{report._id.slice(-6)}
+                          Ticket #{report._id.slice(-6)}
                         </h3>
                         <p className="text-slate-400 text-sm font-mono">
                           {formatDistanceToNow(new Date(report.createdAt))} ago

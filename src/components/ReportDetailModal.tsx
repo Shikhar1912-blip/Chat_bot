@@ -172,7 +172,7 @@ export default function ReportDetailModal({
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h3 className="font-mono font-bold text-cyan-400 text-lg">
-                    Report #{report._id.slice(-8)}
+                    Ticket #{report._id.slice(-8)}
                   </h3>
                   <p className="text-slate-400 font-mono text-sm mt-1">
                     Submitted {formatDistanceToNow(new Date(report.createdAt))} ago
@@ -196,7 +196,7 @@ export default function ReportDetailModal({
             <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-6">
               <h4 className="font-mono font-semibold text-red-400 mb-3 flex items-center gap-2">
                 <AlertTriangle className="w-5 h-5" />
-                Report Reason
+                Ticket Reason
               </h4>
               <p className="text-red-300 font-mono bg-red-500/10 p-3 rounded-lg border border-red-500/20">
                 {report.reason}

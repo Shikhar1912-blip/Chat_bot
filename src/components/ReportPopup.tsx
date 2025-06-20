@@ -101,7 +101,7 @@ export default function ReportPopup({ isOpen, onClose, chatId }: ReportPopupProp
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-mono font-semibold text-slate-300 mb-2">
-              Reason for Report
+              Reason for Ticket
             </label>
             <select
               value={selectedOption}
